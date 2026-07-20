@@ -8,8 +8,6 @@ body {
     background-color: #f4f4f4;
 }
 ul {
-    position: sticky;
-    top: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -17,6 +15,8 @@ ul {
     background-color: hsl(163, 80%, 55%);
 }
 ul li {
+    position: sticky;
+    top: 0px;
     float: left;
 }
 ul li a {
