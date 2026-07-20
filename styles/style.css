@@ -7,17 +7,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-header {
-    clear: both;
-    text-align: center;
-    font-family: sans-serif;
-    background-color: hsl(163, 80%, 54%);
-    padding: 10px 0;
-    color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 ul {
     list-style-type: none;
     margin: 0;
