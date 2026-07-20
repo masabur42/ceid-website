@@ -8,6 +8,8 @@ body {
     background-color: #f4f4f4;
 }
 ul {
+    position: sticky;
+    top: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
