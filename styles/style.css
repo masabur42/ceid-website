@@ -15,12 +15,12 @@ ul {
     background-color: hsl(163, 80%, 55%);
 }
 ul li {
-    position: sticky;
-    top: 0px;
     float: left;
 }
 ul li a {
     display: block;
+    position: sticky;
+    top: 0px;
     color: black;
     text-align: center;
     width: 100%;
