@@ -19,8 +19,6 @@ ul li {
 }
 ul li a {
     display: block;
-    position: sticky;
-    top: 0px;
     color: black;
     text-align: center;
     width: 100%;
@@ -42,4 +40,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+header {
+    clear: both;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: hsl(163, 80%, 54%);
+    padding: 10px 0;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
