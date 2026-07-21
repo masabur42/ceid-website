@@ -7,40 +7,36 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: hsl(163, 80%, 55%);
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-ul li {
-    float: left;
-}
-ul li a {
-    display: block;
-    color: black;
-    text-align: center;
-    width: 100%;
-    padding: 16px 30px;
-    text-decoration: none;
-}
-ul li a:hover {
-    background-color: hsl(168, 66%, 45%);
+
+div.home-main, div.contact-main, div.projects-main, div.services-container {
+    margin-top: 50px;
 }
 
-footer {
-    clear: both;
-    text-align: center;
-    font-family: sans-serif;
-    background-color: hsl(163, 80%, 54%);
-    padding: 10px 0;
-    color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+ul.ls-hp-service li{
+    display: block;
+    padding: 8px;
+    color: #0f486e;
+    font-family: 'Times New Roman', Times, serif
 }
+
+ul.ls-hp-service li:hover{
+    background-color: hsl(0, 3%, 82%);
+    color: white;
+}
+
+ul.our-services{
+    list-style-type: none;
+}
+
+ul.our-services li{
+    display: block;
+    padding: 5px 0px;
+}
+
+ul.our-services li:hover{
+    background-color: hsl(0, 2%, 52%);
+    color: white;
+}
+
+
 

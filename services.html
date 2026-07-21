@@ -6,7 +6,8 @@
     <title>Services CEID</title>
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <style>
        .services-list ul {
             list-style-type: none;
@@ -47,9 +48,20 @@
     </style>
 </head>
 <body>
-    <special-header></special-header>
 
-    <div class="services-container">
+    <!-- header codes are here -->
+
+    <ul class="h-nbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- main body goes here -->
+
+    <div class="services-container" style="font-family: 'Times New Roman', Times, serif;">
 
         <div class="services-list">
             <ul>
@@ -132,7 +144,12 @@
         
 
     </main>
-    <special-footer></special-footer>
-    <script src="headerfooter.js"></script>
+    
+    <!-- footer codes are here -->
+
+    <div class="footer">
+        <p><small>&copy; 2026 ceid, llc. All rights reserved.</small></p>
+        <small><a href="mailto:info@ceinnovative.com">info@ceinnovative.com</a></small>
+    </div>
 </body>
 </html>

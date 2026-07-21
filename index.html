@@ -6,6 +6,8 @@
     <title>CEID</title>
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <style>
        .home-main {
             display: grid;
@@ -16,12 +18,26 @@
 </head>
 <body>
     
-    <special-header></special-header>
+    <!-- header codes are here -->
+
+    <ul class="h-nbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <!-- main body goes here -->
 
     <div class="home-main">
-        <div style="background-color: white; padding: 20px;">
-            <h2>Industries We Serve:</h2> <br>
-            <ol style="list-style: none;">
+        <div style="background-color: white;">
+
+            <h2 style="padding-left: 8px; 
+                       font-family: 'Times New Roman', Times, serif;">
+                       Industries We Serve:
+            </h2> <br>
+            <ul class="ls-hp-service">
                 <li>Commercial Development</li>
                 <li>Residential Communities</li>
                 <li>Municipal & Government Projects</li>
@@ -29,10 +45,12 @@
                 <li>Educational Institutions</li>
                 <li>Healthcare Facilities</li>
                 <li>Mixed-Use Developments</li>
-            </ol>
+            </ul>
         </div>
 
-        <div style="padding: 20px; background-color: hsl(133, 60%, 89%);">
+        <div style="padding: 0px 8px 5px; 
+                    background-color: hsl(133, 60%, 89%); 
+                    font-family: 'Times New Roman', Times, serif;">
             <h1>Building Better Infrastructure Through Engineering Excellence</h1><br>
             <h2>Civil Engineering & Innovative Design, LLC (CEID)</h2><br>
             <p>
@@ -53,7 +71,7 @@
             </p> <br>
 
             <h3>Our Services:</h3> <br>
-            <ol style="list-style: none;">
+            <ul class="our-services">
                 <li>Civil Engineering Design</li>
                 <li>Site Development</li>
                 <li>Land Development Planning</li>
@@ -64,7 +82,7 @@
                 <li>Water & Wastewater Infrastructure</li>
                 <li>Construction Documents & Permitting Support</li>
                 <li>Construction Administration & Project Management</li>
-            </ol>
+            </ul>
 
             <br>
             <h2>Why Choose CEID?</h2> <br>
@@ -98,20 +116,19 @@
                 Innovative Design, LLC can help you build with confidence.
             </p>
 
-
-            <br><br><br>
-
         </div>
 
-        <div style="background-color: white; padding: 20px;">
+        <div style="background-color: white; 
+                    padding: 8px;
+                    font-family: 'Times New Roman', Times, serif;">
             <h2>Our Mission</h2> <br>
-            <p>
+            <p style="color: #0f486e;">
                 To provide innovative civil engineering and design solutions that enhance communities, support sustainable development, 
                 and create lasting value for our clients through integrity, technical excellence, and responsive service.
             </p> <br>
 
             <h2>Let's Build Together</h2> <br>
-            <p>
+            <p style="color: #0f486e;">
                 Whether you're launching a new project or looking for an experienced engineering partner, CEID is ready to help 
                 transform your vision into reality.
             </p>
@@ -119,8 +136,12 @@
 
     </div>
 
-    <special-footer></special-footer>
+    <!-- footer codes are here -->
 
-    <script src="headerfooter.js"></script>
+    <div class="footer">
+        <p><small>&copy; 2026 ceid, llc. All rights reserved.</small></p>
+        <small><a href="mailto:info@ceinnovative.com">info@ceinnovative.com</a></small>
+    </div>
+
 </body>
 </html>
